@@ -4,6 +4,7 @@ import ThemeProvider from "../src/theme/provider"
 export const parameters = {
   // https://storybook.js.org/docs/react/essentials/actions#automatically-matching-args
   actions: { argTypesRegex: '^on.*' },
+  layout: 'centered'
 };
 
 // Wrap each story in <ChakraProvider> to get access to theme variables
