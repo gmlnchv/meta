@@ -1,5 +1,7 @@
 import * as React from "react"
-import { ChakraProvider, ChakraProviderProps } from "@chakra-ui/react"
+import { ChakraProvider } from "@chakra-ui/react"
+import { ChakraProviderProps } from "@chakra-ui/provider"
+
 import theme from "."
 
 export default function ThemeProvider(props: ChakraProviderProps) {
