@@ -1,20 +1,21 @@
-import { Token, TokenProps } from '../../src/components/Token';
+import { Token, TokenProps } from "../../src/components/Token"
 
-export default { 
-  title: 'Primitives/Token',
+export default {
+  title: "Primitives/Token",
   component: Token,
   argTypes: {
     children: {
       control: {
-        type: 'text',
+        type: "text",
       },
     },
   },
-};
+}
 
 export const Basic = {
   args: {
-    children: 'gray.200'
+    children: "gray.200",
+    value: "#E5E7EB",
   },
-  render: (args: TokenProps) => <Token {...args} />
+  render: (args: TokenProps) => <Token {...args} />,
 }
