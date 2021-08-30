@@ -1,0 +1,22 @@
+import { Meta, DocsContainer, Story, Canvas } from "@storybook/addon-docs"
+import ThemeProvider from "../../src/theme/provider"
+import { Token } from "../../src/components/Token"
+
+<Meta
+  title="Examples/Token"
+  parameters={{
+    docs: {
+      container: ({ children, context }) => (
+        <DocsContainer context={context}>
+          <ThemeProvider>{children}</ThemeProvider>
+        </DocsContainer>
+      ),
+    },
+  }}
+/>
+
+# Tokens
+
+<Token>gray.200</Token>{" "}
+
+<Token>ctaBackgroundColor</Token>
