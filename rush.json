@@ -453,8 +453,8 @@
     },
     
     {
-      "packageName": "@meta/example",
-      "projectFolder": "example",
+      "packageName": "@meta/examples",
+      "projectFolder": "examples",
       "shouldPublish": false
     }
   ]
