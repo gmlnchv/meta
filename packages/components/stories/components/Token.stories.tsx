@@ -1,4 +1,4 @@
-import { Token, TokenProps } from "../../src/components/Token"
+import { Token, TokenProps } from "../../src"
 
 export default {
   title: "Primitives/Token",
