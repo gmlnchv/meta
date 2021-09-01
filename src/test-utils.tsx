@@ -1,6 +1,6 @@
 import React, { FC, ReactElement } from "react"
 import { render, RenderOptions } from "@testing-library/react"
-import { ThemeProvider } from "../src"
+import { ThemeProvider } from "."
 
 const Provider: FC = ({ children }) => {
   return <ThemeProvider>{children}</ThemeProvider>
