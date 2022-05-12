@@ -58,7 +58,7 @@
   ],
   "devDependencies": {
     "@babel/core": "^7.15.0",
-    "@size-limit/preset-small-lib": "^5.0.3",
+    "@size-limit/preset-small-lib": "5.0.5",
     "@storybook/addon-essentials": "6.4.0-alpha.32",
     "@storybook/addons": "6.4.0-alpha.32",
     "@storybook/react": "6.4.0-alpha.32",
